@@ -13,13 +13,16 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
+
 import { TaskViewComponent } from './components/pages/task-view/task-view.component';
+import { SideNavigationComponent } from './common/side-navigation/side-navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    TaskViewComponent
+    TaskViewComponent,
+    SideNavigationComponent
   ],
   imports: [
     BrowserModule,
